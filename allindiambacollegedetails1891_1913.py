@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/mbiz-nafs-management-fire-safety-engineering-college-baguiati-kolkata-52711",
-  "https://www.shiksha.com/college/lakhmi-chand-institute-of-technology-bilaspur-60105",
-  "https://www.shiksha.com/college/st-mary-s-college-of-engineering-technology-medak-61311",
-  "https://www.shiksha.com/college/edge-international-b-school-chittoor-62357",
-  "https://www.shiksha.com/college/dr-manorama-and-prof-haribhau-shankarrao-pundkar-arts-commerce-and-science-college-akola-66585",
-  "https://www.shiksha.com/college/chathamkulam-institute-of-research-and-advanced-studies-palakkad-147041",
-  "https://www.shiksha.com/college/delhi-global-institute-of-management-faridabad-195223",
-  "https://www.shiksha.com/college/sri-ramachandra-faculty-of-management-science-porur-chennai-215579",
-  "https://www.shiksha.com/college/guru-nanak-khalsa-group-of-educational-institutions-yamuna-nagar-22621",
-  "https://www.shiksha.com/college/kovai-kalaimagal-college-of-arts-and-science-coimbatore-23766",
-  "https://www.shiksha.com/college/jre-group-of-institutions-jre-greater-noida-31123",
-  "https://www.shiksha.com/college/gitaram-institute-of-management-murshidabad-51762",
-  "https://www.shiksha.com/college/annai-mira-college-of-engineering-and-technology-vellore-54305",
-  "https://www.shiksha.com/college/aditya-degree-college-vizianagaram-67193",
-  "https://www.shiksha.com/college/institute-of-business-management-and-research-hubli-69725",
-  "https://www.shiksha.com/college/jinvani-management-college-arrah-212277",
-  "https://www.shiksha.com/college/indian-institute-for-production-management-orissa-other-4462",
-  "https://www.shiksha.com/college/lisaa-school-of-design-bangalore-koramangala-36171",
-  "https://www.shiksha.com/college/school-of-health-sciences-sushant-university-gurgaon-48751",
-  "https://www.shiksha.com/college/biyani-girls-college-jaipur-52180",
+  "https://www.shiksha.com/college/government-arts-and-science-college-idappadi-salem-213267",
+  "https://www.shiksha.com/college/stella-mary-s-college-of-engineering-kanyakumari-61687",
+  "https://www.shiksha.com/college/institute-of-management-studies-and-research-chandrapur-64283",
+  "https://www.shiksha.com/college/desh-bhagat-foundation-group-of-institutions-moga-65159",
+  "https://www.shiksha.com/college/sat-priya-group-of-institutions-rohtak-66461",
+  "https://www.shiksha.com/college/a-r-j-institute-of-management-studies-thiruvarur-67127",
+  "https://www.shiksha.com/college/gandhi-memorial-national-college-ambala-67447",
+  "https://www.shiksha.com/college/patel-institute-of-management-and-technology-rajpura-68331",
+  "https://www.shiksha.com/college/daripally-anantha-ramulu-college-of-engineering-and-technology-khammam-68395",
+  "https://www.shiksha.com/college/radha-devi-ramchandra-mangal-institute-neemuch-121689",
+  "https://www.shiksha.com/college/atlas-ideal-international-college-malappuram-147087",
+  "https://www.shiksha.com/college/icri-sandeep-university-nashik-153027",
+  "https://www.shiksha.com/college/sheela-devi-institute-of-management-and-technology-faridabad-156209",
+  "https://www.shiksha.com/college/selvam-college-of-technology-namakkal-193831",
+  "https://www.shiksha.com/college/indian-institute-of-fashion-and-design-mohali-202729",
+  "https://www.shiksha.com/college/nath-school-of-business-and-technology-aurangabad-205125",
+  "https://www.shiksha.com/college/swami-sahajanand-school-of-management-bhavnagar-69291",
+  "https://www.shiksha.com/college/meenakshi-chandrasekaran-college-of-arts-and-science-thanjavur-73593",
+  "https://www.shiksha.com/college/ssd-women-s-institute-of-technology-bathinda-76795",
+  "https://www.shiksha.com/college/dr-arun-motghare-mahavidyalaya-maharashtra-other-111755",
 ]
 
 
@@ -9242,7 +9242,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1891
+    c_count =2171
 
     try:
         for base_url in BASE_URL:
