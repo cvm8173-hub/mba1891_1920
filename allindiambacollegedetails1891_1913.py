@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/government-arts-and-science-college-idappadi-salem-213267",
-  "https://www.shiksha.com/college/stella-mary-s-college-of-engineering-kanyakumari-61687",
-  "https://www.shiksha.com/college/institute-of-management-studies-and-research-chandrapur-64283",
-  "https://www.shiksha.com/college/desh-bhagat-foundation-group-of-institutions-moga-65159",
-  "https://www.shiksha.com/college/sat-priya-group-of-institutions-rohtak-66461",
-  "https://www.shiksha.com/college/a-r-j-institute-of-management-studies-thiruvarur-67127",
-  "https://www.shiksha.com/college/gandhi-memorial-national-college-ambala-67447",
-  "https://www.shiksha.com/college/patel-institute-of-management-and-technology-rajpura-68331",
-  "https://www.shiksha.com/college/daripally-anantha-ramulu-college-of-engineering-and-technology-khammam-68395",
-  "https://www.shiksha.com/college/radha-devi-ramchandra-mangal-institute-neemuch-121689",
-  "https://www.shiksha.com/college/atlas-ideal-international-college-malappuram-147087",
-  "https://www.shiksha.com/college/icri-sandeep-university-nashik-153027",
-  "https://www.shiksha.com/college/sheela-devi-institute-of-management-and-technology-faridabad-156209",
-  "https://www.shiksha.com/college/selvam-college-of-technology-namakkal-193831",
-  "https://www.shiksha.com/college/indian-institute-of-fashion-and-design-mohali-202729",
-  "https://www.shiksha.com/college/nath-school-of-business-and-technology-aurangabad-205125",
-  "https://www.shiksha.com/college/swami-sahajanand-school-of-management-bhavnagar-69291",
-  "https://www.shiksha.com/college/meenakshi-chandrasekaran-college-of-arts-and-science-thanjavur-73593",
-  "https://www.shiksha.com/college/ssd-women-s-institute-of-technology-bathinda-76795",
-  "https://www.shiksha.com/college/dr-arun-motghare-mahavidyalaya-maharashtra-other-111755",
+  "https://www.shiksha.com/college/hetic-bangalore-64379",
+  "https://www.shiksha.com/college/ram-devi-jindal-group-of-professional-institutions-mohali-66417",
+  "https://www.shiksha.com/college/bm-institute-of-professional-studies-bm-group-of-institutions-indore-68513",
+  "https://www.shiksha.com/college/aps-college-of-education-and-technology-meerut-68619",
+  "https://www.shiksha.com/college/l-j-institute-of-computer-applications-ahmedabad-68723",
+  "https://www.shiksha.com/college/sri-venkateswara-paladugu-nagaiah-chowdary-and-kotha-raghuramaiah-group-of-institutions-narasaraopet-68747",
+  "https://www.shiksha.com/college/s-v-arts-and-science-college-nellore-68787",
+  "https://www.shiksha.com/college/mrm-institute-of-management-telangana-other-68961",
+  "https://www.shiksha.com/college/the-navkonkan-education-societys-institute-of-management-studies-ratnagiri-77339",
+  "https://www.shiksha.com/college/sri-annamacharya-institute-of-technology-and-sciences-rajampet-kadapa-89305",
+  "https://www.shiksha.com/college/kbr-engineering-college-telangana-other-99175",
+  "https://www.shiksha.com/college/dwarampudi-lakshmana-reddy-college-east-godavari-22532",
+  "https://www.shiksha.com/college/college-of-technology-and-engineering-udaipur-25268",
+  "https://www.shiksha.com/college/ncr-business-school-nbs-ghaziabad-30550",
+  "https://www.shiksha.com/college/rashmis-transworld-academy-iata-authorised-training-centre-sion-mumbai-34121",
+  "https://www.shiksha.com/university/techno-global-university-madhya-pradesh-vidisha-42905",
+  "https://www.shiksha.com/college/saraswathi-velu-college-of-engineering-svcoe-vellore-43214",
+  "https://www.shiksha.com/college/nimra-institute-of-engineering-and-technology-andhra-pradesh-other-43243",
+  "https://www.shiksha.com/college/transglobe-school-of-logistics-and-aviation-management-kochi-52417",
+  "https://www.shiksha.com/college/prananath-college-bhubaneswar-59071",
 ]
 
 
@@ -9242,7 +9242,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =2171
+    c_count =2611
 
     try:
         for base_url in BASE_URL:
