@@ -15,36 +15,36 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/pravara-centre-for-management-research-and-development-senapati-bapat-road-pune-19958",
-  "https://www.shiksha.com/college/college-of-engineering-bhubaneswar-25182",
-  "https://www.shiksha.com/college/shantiniketan-business-school-sbs-nagpur-30856",
-  "https://www.shiksha.com/college/apex-group-of-institutions-jaipur-35725",
-  "https://www.shiksha.com/college/school-of-management-studies-guru-nanak-institutions-technical-campus-ranga-reddy-43350",
-  "https://www.shiksha.com/college/anurag-college-of-engineering-ranga-reddy-47276",
-  "https://www.shiksha.com/university/guru-nanak-dev-university-regional-campus-gurdaspur-punjab-other-55311",
-  "https://www.shiksha.com/college/pallavi-college-of-business-management-secunderabad-68407",
-  "https://www.shiksha.com/college/shri-ram-institute-of-management-jabalpur-68615",
-  "https://www.shiksha.com/college/thakur-shivkumarsingh-memorial-management-college-burhanpur-68621",
-  "https://www.shiksha.com/college/iqbal-institute-of-technology-and-management-srinagar-68721",
-  "https://www.shiksha.com/college/swami-darshnanand-institute-of-management-and-technology-haridwar-77081",
-  "https://www.shiksha.com/college/empire-college-of-science-malappuram-138665",
-  "https://www.shiksha.com/university/nirwan-university-jaipur-149377",
-  "https://www.shiksha.com/university/d-y-patil-agriculture-and-technical-university-kolhapur-154189",
-  "https://www.shiksha.com/college/samet-school-of-management-khordha-156361",
-  "https://www.shiksha.com/college/g-h-raisoni-international-skill-tech-university-pune-baramati-227601",
-  "https://www.shiksha.com/college/school-of-business-and-strategy-dnyaan-prasad-global-university-pune-243410",
-  "https://www.shiksha.com/college/jamal-institute-of-management-tiruchirappalli-47696",
-  "https://www.shiksha.com/college/sgit-school-of-management-sanskar-educational-group-ghaziabad-59179",
-  # "https://www.shiksha.com/college/bhopal-institute-of-technology-and-management-61705",
-  # "https://www.shiksha.com/college/aurobindo-college-of-computer-science-olive-p-g-college-ranga-reddy-62037",
-  # "https://www.shiksha.com/college/st-joseph-s-college-of-engineering-and-technology-thanjavur-66811",
-  # "https://www.shiksha.com/college/vogue-dr-kariappa-business-school-doddaballapur-rd-bangalore-151025",
-  # "https://www.shiksha.com/college/chanakya-institute-of-management-and-higher-studies-bihar-other-179973",
-  # "https://www.shiksha.com/college/gems-b-school-chennai-saidapet-31010",
-  # "https://www.shiksha.com/college/institute-of-business-management-and-rural-development-imbrd-ahmednagar-20867",
-  # "https://www.shiksha.com/college/bhavan-s-centre-for-communication-and-management-bhubaneswar-23753",
-  # "https://www.shiksha.com/college/indian-institute-of-learning-and-advanced-development-gurgaon-29819",
-  # "https://www.shiksha.com/college/rakshpal-bahadur-management-institute-greater-noida-33172",
+  # "https://www.shiksha.com/college/pravara-centre-for-management-research-and-development-senapati-bapat-road-pune-19958",
+  # "https://www.shiksha.com/college/college-of-engineering-bhubaneswar-25182",
+  # "https://www.shiksha.com/college/shantiniketan-business-school-sbs-nagpur-30856",
+  # "https://www.shiksha.com/college/apex-group-of-institutions-jaipur-35725",
+  # "https://www.shiksha.com/college/school-of-management-studies-guru-nanak-institutions-technical-campus-ranga-reddy-43350",
+  # "https://www.shiksha.com/college/anurag-college-of-engineering-ranga-reddy-47276",
+  # "https://www.shiksha.com/university/guru-nanak-dev-university-regional-campus-gurdaspur-punjab-other-55311",
+  # "https://www.shiksha.com/college/pallavi-college-of-business-management-secunderabad-68407",
+  # "https://www.shiksha.com/college/shri-ram-institute-of-management-jabalpur-68615",
+  # "https://www.shiksha.com/college/thakur-shivkumarsingh-memorial-management-college-burhanpur-68621",
+  # "https://www.shiksha.com/college/iqbal-institute-of-technology-and-management-srinagar-68721",
+  # "https://www.shiksha.com/college/swami-darshnanand-institute-of-management-and-technology-haridwar-77081",
+  # "https://www.shiksha.com/college/empire-college-of-science-malappuram-138665",
+  # "https://www.shiksha.com/university/nirwan-university-jaipur-149377",
+  # "https://www.shiksha.com/university/d-y-patil-agriculture-and-technical-university-kolhapur-154189",
+  # "https://www.shiksha.com/college/samet-school-of-management-khordha-156361",
+  # "https://www.shiksha.com/college/g-h-raisoni-international-skill-tech-university-pune-baramati-227601",
+  # "https://www.shiksha.com/college/school-of-business-and-strategy-dnyaan-prasad-global-university-pune-243410",
+  # "https://www.shiksha.com/college/jamal-institute-of-management-tiruchirappalli-47696",
+  # "https://www.shiksha.com/college/sgit-school-of-management-sanskar-educational-group-ghaziabad-59179",
+  "https://www.shiksha.com/college/bhopal-institute-of-technology-and-management-61705",
+  "https://www.shiksha.com/college/aurobindo-college-of-computer-science-olive-p-g-college-ranga-reddy-62037",
+  "https://www.shiksha.com/college/st-joseph-s-college-of-engineering-and-technology-thanjavur-66811",
+  "https://www.shiksha.com/college/vogue-dr-kariappa-business-school-doddaballapur-rd-bangalore-151025",
+  "https://www.shiksha.com/college/chanakya-institute-of-management-and-higher-studies-bihar-other-179973",
+  "https://www.shiksha.com/college/gems-b-school-chennai-saidapet-31010",
+  "https://www.shiksha.com/college/institute-of-business-management-and-rural-development-imbrd-ahmednagar-20867",
+  "https://www.shiksha.com/college/bhavan-s-centre-for-communication-and-management-bhubaneswar-23753",
+  "https://www.shiksha.com/college/indian-institute-of-learning-and-advanced-development-gurgaon-29819",
+  "https://www.shiksha.com/college/rakshpal-bahadur-management-institute-greater-noida-33172",
 ]
 
 
@@ -9252,7 +9252,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1771
+    c_count =1791
 
     try:
         for base_url in BASE_URL:
